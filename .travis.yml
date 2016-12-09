@@ -1,10 +1,7 @@
 sudo: require
-language: cpp
+language: generic
 compiler: gcc
 dist: trusty
-
-before_install:
-  - export CXX="g++"
 
 script: 
   - qmake
