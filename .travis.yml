@@ -4,7 +4,7 @@ compiler: gcc
 dist: trusty
 
 before_install:
-  - export CXX="g++-5
+  - export CXX="g++-5"
 
 script: 
   - qmake
