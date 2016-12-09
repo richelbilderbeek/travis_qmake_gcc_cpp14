@@ -12,7 +12,7 @@ install:
   # C++14
   - sudo apt-get install -qq g++-5
   # g++ should call g++-5
-  - sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+  - update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
   - g++ -v
   - g++-5 -v
 
