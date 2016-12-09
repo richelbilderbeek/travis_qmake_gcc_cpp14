@@ -3,6 +3,9 @@ language: cpp
 compiler: gcc
 dist: trusty
 
+before_install:
+  - export CXX="g++-5
+
 script: 
   - qmake
   - make
