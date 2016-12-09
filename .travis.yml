@@ -6,7 +6,7 @@ dist: trusty
 before_install:
   # No need to install g++-5 on trusty, its g++ default version 
   - g++ -v
-  - ln -s /usr/bin/g++ /usr/bin/g++-5
+  - sudo ln -s /usr/bin/g++ /usr/bin/g++-5
 
 script: 
   - qmake
