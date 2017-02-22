@@ -32,6 +32,7 @@ More complex builds:
  * Add `Rcpp`: [travis_qmake_gcc_cpp14_rcpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp)
  * Add `Urho3D`: [travis_qmake_gcc_cpp14_urho3d](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d)
  * Add `Wt`: [travis_qmake_gcc_cpp14_wt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_wt)
+ * Travis-dependent compilation: [travis_qmake_gcc_cpp14_tdc](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdc)
 
 Less complex builds:
  * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
