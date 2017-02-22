@@ -34,6 +34,11 @@ More complex builds:
  * Add `Wt`: [travis_qmake_gcc_cpp14_wt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_wt)
  * Travis-dependent compilation: [travis_qmake_gcc_cpp14_tdc](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdc)
 
+Builds of similar complexity:
+
+ * Use `clang` instead of `gcc`: [travis_qmake_clang_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_clang_cpp14)
+ * Use `cmake` instead of `qmake`: [travis_cmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_cmake_gcc_cpp14)
+
 Less complex builds:
  * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
  * Use C++11: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
