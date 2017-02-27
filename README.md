@@ -33,6 +33,7 @@ More complex builds:
  * Add `Urho3D`: [travis_qmake_gcc_cpp14_urho3d](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d)
  * Add `Wt`: [travis_qmake_gcc_cpp14_wt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_wt)
  * Travis-dependent compilation: [travis_qmake_gcc_cpp14_tdc](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdc)
+ * Travis-dependent run: [travis_qmake_gcc_cpp14_tdr](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdr)
 
 Builds of similar complexity:
 
