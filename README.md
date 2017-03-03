@@ -18,6 +18,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
  * Source: one single file, `main.cpp`
 
 More complex builds:
+
  * Use C++17: [travis_qmake_gcc_cpp17](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17)
  * Add `Bio++`: [travis_qmake_gcc_cpp14_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_bpp)
  * Add `Boost`: [travis_qmake_gcc_cpp14_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost)
@@ -28,6 +29,7 @@ More complex builds:
  * Add `OCLint`: [travis_qmake_gcc_cpp14_oclint](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_oclint)
  * Add `perf`: [travis_qmake_gcc_cpp14_perf](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_perf)
  * Add `Qt`: [travis_qmake_gcc_cpp14_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt)
+ * Add `SDL`: [travis_qmake_gcc_cpp14_sdl](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sdl)
  * Add `SFML`: [travis_qmake_gcc_cpp14_sfml](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sfml)
  * Add `Rcpp`: [travis_qmake_gcc_cpp14_rcpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp)
  * Add `Urho3D`: [travis_qmake_gcc_cpp14_urho3d](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d)
@@ -41,5 +43,6 @@ Builds of similar complexity:
  * Use `cmake` instead of `qmake`: [travis_cmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_cmake_gcc_cpp14)
 
 Less complex builds:
+
  * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
  * Use C++11: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
