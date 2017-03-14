@@ -47,3 +47,21 @@ Less complex builds:
 
  * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
  * Use C++11: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
+
+
+# Let g++ redirect to g++-5
+
+There are two equivalent ways:
+
+```
+  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
+```
+
+and
+
+```
+  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+```
+
+I prefer the first, as it is shorter.
