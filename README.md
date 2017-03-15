@@ -26,6 +26,7 @@ More complex builds:
  * Add `Boost.Test`: [travis_qmake_gcc_cpp14_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test)
  * Add code coverage: [travis_qmake_gcc_cpp14_gcov](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov)
  * Add Coverity Scan: [travis_qmake_gcc_cpp14_coverity](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_coverity)
+ * Add `cppcheck`: [travis_qmake_gcc_cpp14_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck)
  * Add `FLTK`: [travis_qmake_gcc_cpp14_fltk](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_fltk)
  * Add `gprof`: [travis_qmake_gcc_cpp14_gprof](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gprof)
  * Add `OCLint`: [travis_qmake_gcc_cpp14_oclint](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_oclint)
