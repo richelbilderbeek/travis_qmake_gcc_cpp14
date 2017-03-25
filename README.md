@@ -24,6 +24,7 @@ More complex builds:
  * Add `Bio++`: [travis_qmake_gcc_cpp14_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_bpp)
  * Add `Boost`: [travis_qmake_gcc_cpp14_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost)
  * Add `Boost.Test`: [travis_qmake_gcc_cpp14_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test)
+ * Add `clang` as a second compiler: [travis_qmake_clang_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_clang_gcc_cpp14)
  * Add `codechecker`: [travis_qmake_gcc_cpp14_codechecker](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_codechecker)
  * Add code coverage: [travis_qmake_gcc_cpp14_gcov](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov)
  * Add Coverity Scan: [travis_qmake_gcc_cpp14_coverity](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_coverity)
