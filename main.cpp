@@ -1,9 +1,12 @@
 #include <iostream>
 
-auto f() noexcept {
+// C++14
+auto f() noexcept 
+{
   return "Hello world\n";
 }
 
-int main() {
+int main() 
+{
   std::cout << f();
 }
