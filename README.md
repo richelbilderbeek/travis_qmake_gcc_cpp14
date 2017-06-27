@@ -34,6 +34,7 @@ More complex builds:
  * Add `OCLint`: [travis_qmake_gcc_cpp14_oclint](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_oclint)
  * Add `perf`: [travis_qmake_gcc_cpp14_perf](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_perf)
  * Add `Qt`: [travis_qmake_gcc_cpp14_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt)
+ * Add `Qwt`: [travis_qmake_gcc_cpp14_qwt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qwt)
  * Add `R`: [travis_qmake_gcc_cpp14_r](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_r)
  * Add `SDL`: [travis_qmake_gcc_cpp14_sdl](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sdl)
  * Add `SFML`: [travis_qmake_gcc_cpp14_sfml](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sfml)
