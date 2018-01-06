@@ -20,36 +20,37 @@ The goal of this project is to have a clean Travis CI build, with specs:
 
 More complex builds:
 
- * Use C++17: [travis_qmake_gcc_cpp17](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17)
- * Add `Bio++`: [travis_qmake_gcc_cpp14_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_bpp)
- * Add `Boost`: [travis_qmake_gcc_cpp14_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost)
- * Add `Boost.Test`: [travis_qmake_gcc_cpp14_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test)
- * Add code coverage: [travis_qmake_gcc_cpp14_gcov](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov)
- * Add Coverity Scan: [travis_qmake_gcc_cpp14_coverity](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_coverity)
- * Add `cppcheck`: [travis_qmake_gcc_cpp14_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck)
- * Add `FLTK`: [travis_qmake_gcc_cpp14_fltk](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_fltk)
- * Add `gprof`: [travis_qmake_gcc_cpp14_gprof](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gprof)
- * Add `OCLint`: [travis_qmake_gcc_cpp14_oclint](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_oclint)
- * Add `perf`: [travis_qmake_gcc_cpp14_perf](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_perf)
- * Add `Qt`: [travis_qmake_gcc_cpp14_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt)
- * Add `R`: [travis_qmake_gcc_cpp14_r](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_r)
- * Add `SDL`: [travis_qmake_gcc_cpp14_sdl](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sdl)
- * Add `SFML`: [travis_qmake_gcc_cpp14_sfml](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sfml)
- * Add `Rcpp`: [travis_qmake_gcc_cpp14_rcpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp)
- * Add `Urho3D`: [travis_qmake_gcc_cpp14_urho3d](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d)
- * Add `Wt`: [travis_qmake_gcc_cpp14_wt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_wt)
- * Travis-dependent compilation: [travis_qmake_gcc_cpp14_tdc](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdc)
- * Travis-dependent run: [travis_qmake_gcc_cpp14_tdr](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdr)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp17.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp17) Use C++17: [travis_qmake_gcc_cpp17](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_bpp.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_bpp) Add `Bio++`: [travis_qmake_gcc_cpp14_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_bpp)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost) Add `Boost`: [travis_qmake_gcc_cpp14_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test) Add `Boost.Test`: [travis_qmake_gcc_cpp14_boost_test](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_test)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_codechecker.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_codechecker) Add CodeChecker: [travis_qmake_gcc_cpp14_codechecker](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_codechecker)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_gcov.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_gcov) Add code coverage: [travis_qmake_gcc_cpp14_gcov](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gcov)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_coverity.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_coverity) Add Coverity Scan: [travis_qmake_gcc_cpp14_coverity](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_coverity)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck) Add `cppcheck`: [travis_qmake_gcc_cpp14_cppcheck](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_cppcheck)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_fltk.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_fltk) Add `FLTK`: [travis_qmake_gcc_cpp14_fltk](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_fltk)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_gprof.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_gprof) Add `gprof`: [travis_qmake_gcc_cpp14_gprof](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_gprof)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_oclint.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_oclint) Add `OCLint`: [travis_qmake_gcc_cpp14_oclint](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_oclint)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_perf.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_perf) Add `perf`: [travis_qmake_gcc_cpp14_perf](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_perf)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_qt.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_qt) Add `Qt`: [travis_qmake_gcc_cpp14_qt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_qt)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_r.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_r) Add `R`: [travis_qmake_gcc_cpp14_r](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_r)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_sdl.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_sdl) Add `SDL`: [travis_qmake_gcc_cpp14_sdl](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sdl)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_sfml.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_sfml) Add `SFML`: [travis_qmake_gcc_cpp14_sfml](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_sfml)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp) Add `Rcpp`: [travis_qmake_gcc_cpp14_rcpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_rcpp)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d) Add `Urho3D`: [travis_qmake_gcc_cpp14_urho3d](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_urho3d)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_wt.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_wt) Add `Wt`: [travis_qmake_gcc_cpp14_wt](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_wt)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_tdc.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_tdc) Travis-dependent compilation: [travis_qmake_gcc_cpp14_tdc](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdc)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_tdr.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_tdr) Travis-dependent run: [travis_qmake_gcc_cpp14_tdr](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_tdr)
 
 Builds of similar complexity:
 
- * Use `clang` instead of `gcc`: [travis_qmake_clang_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_clang_cpp14)
- * Use `cmake` instead of `qmake`: [travis_cmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_cmake_gcc_cpp14)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_clang_cpp14) Use `clang` instead of `gcc`: [travis_qmake_clang_cpp14](https://www.github.com/richelbilderbeek/travis_qmake_clang_cpp14)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_cmake_gcc_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_cmake_gcc_cpp14) Use `cmake` instead of `qmake`: [travis_cmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_cmake_gcc_cpp14)
 
 Less complex builds:
 
- * Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
- * Use C++11: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98) Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11) Use C++11: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
 
 
 # Let g++ redirect to g++-5
