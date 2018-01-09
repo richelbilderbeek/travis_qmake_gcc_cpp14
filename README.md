@@ -73,3 +73,23 @@ I prefer the first, as it is shorter.
 
 ## Setup Travis CI
 
+There are two options to get `g++-5`:
+
+
+```
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-5
+```
+
+
+```
+
+install:
+  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
+  - sudo apt-get update -qq
+  - sudo apt-get install -qq g++-5
+```
