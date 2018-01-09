@@ -1,6 +1,7 @@
 language: cpp
 compiler: gcc
 
+# Is this faster?
 addons:
   apt:
     sources:
