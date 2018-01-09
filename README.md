@@ -102,6 +102,7 @@ The script `compare_travis` can measure this.
 ![Experiment](experiment.png)
 
 #|Time (min)|Time (sec)
+---|---|---
 2|1:33|93
 1|2:17|137
 1|1:56|116
