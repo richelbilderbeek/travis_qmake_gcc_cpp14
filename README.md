@@ -73,8 +73,9 @@ I prefer the first, as it is shorter.
 
 ## Setup Travis CI
 
-There are two options to get `g++-5`:
+There are two options to let `.travis.yml` install `g++-5`: 
 
+Option 1:
 
 ```
 addons:
@@ -85,11 +86,20 @@ addons:
       - g++-5
 ```
 
+Option 2:
 
 ```
-
 install:
   - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
   - sudo apt-get update -qq
   - sudo apt-get install -qq g++-5
 ```
+
+The script `compare_travis` can measure this.
+
+2018-01-098 results:
+
+Option 1 time|Option 2 time
+---|---
+
+
