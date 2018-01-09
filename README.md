@@ -99,7 +99,20 @@ The script `compare_travis` can measure this.
 
 2018-01-098 results:
 
-Option 1 time|Option 2 time
----|---
+![Experiment](experiment.png)
 
+#|Time (min)|Time (sec)
+2|1:33|93
+1|2:17|137
+1|1:56|116
+2|1:25|85
+1|1:54|114
+2|1:33|93
+1|1:50|110
+2|1:32|92
+1|2:31|151
+1|2:10|130
+2|2:12|132
+1|2:51|171
 
+The results are that option #2 is faster.

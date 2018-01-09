@@ -4,30 +4,16 @@ for i in `seq 1 5`
 do
   cp travis_1.yml .travis.yml
   git add .
-  git commit -m "Experiment: Option 1"
+  git commit -m "Slow experiment: Option 1"
   git push
 
-  sleep 10
-
-  cp travis_1.yml .travis.yml
-  git add .
-  git commit -m "Experiment: Option 1"
-  git push
-
-  sleep 10
+  sleep 300
 
   cp travis_2.yml .travis.yml
   git add .
-  git commit -m "Experiment: Option 2"
+  git commit -m "Slow experiment: Option 2"
   git push
 
-  sleep 10
-
-  cp travis_2.yml .travis.yml
-  git add .
-  git commit -m "Experiment: Option 2"
-  git push
-
-  sleep 10
+  sleep 300
 
 done
