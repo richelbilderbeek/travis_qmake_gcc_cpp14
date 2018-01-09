@@ -70,3 +70,6 @@ and
 ```
 
 I prefer the first, as it is shorter.
+
+## Setup Travis CI
+
