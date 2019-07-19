@@ -2,8 +2,8 @@
 
 Branch|[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 ---|---
-master|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14)
-develop|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/)
+`master`|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14)
+`develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14)
 
 This GitHub is part of:
 
@@ -54,68 +54,3 @@ Less complex builds:
 
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp98) Use C++98: [travis_qmake_gcc_cpp98](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp98)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp11) Use C++11: [travis_qmake_gcc_cpp11](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp11)
-
-
-# Let g++ redirect to g++-5
-
-There are two equivalent ways:
-
-```
-  - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
-```
-
-and
-
-```
-  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
-  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
-```
-
-I prefer the first, as it is shorter.
-
-## Setup Travis CI
-
-There are two options to let `.travis.yml` install `g++-5`: 
-
-Option 1:
-
-```
-addons:
-  apt:
-    sources:
-      - ubuntu-toolchain-r-test
-    packages:
-      - g++-5
-```
-
-Option 2:
-
-```
-install:
-  - sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-  - sudo apt-get update -qq
-  - sudo apt-get install -qq g++-5
-```
-
-The script `compare_travis` can measure this.
-
-2018-01-098 results:
-
-![Experiment](experiment.png)
-
-#|Time (min)|Time (sec)
----|---|---
-2|1:33|93
-1|2:17|137
-1|1:56|116
-2|1:25|85
-1|1:54|114
-2|1:33|93
-1|1:50|110
-2|1:32|92
-1|2:31|151
-1|2:10|130
-2|2:12|132
-1|2:51|171
-
-The results are that option #2 is faster.
