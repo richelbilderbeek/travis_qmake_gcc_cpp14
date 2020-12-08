@@ -5,6 +5,8 @@ Branch   |[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
 `master` |[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14)
 `develop`|[![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14.svg?branch=develop)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14)
 
+![GitHub Actions](https://github.com/richelbilderbeek/travis_qmake_gcc_cpp14/workflows/check/badge.svg?branch=master)
+
 This GitHub is part of:
 
  * [the Travis C++ Tutorial](https://github.com/richelbilderbeek/travis_cpp_tutorial)
@@ -21,6 +23,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
 More complex builds:
 
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp17.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp17) Use C++17: [travis_qmake_gcc_cpp17](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp17)
+ * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp20.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp20) Use C++20: [travis_qmake_gcc_cpp20](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp20)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_bpp.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_bpp) Add `Bio++`: [travis_qmake_gcc_cpp14_bpp](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_bpp)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost) Add `Boost`: [travis_qmake_gcc_cpp14_boost](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost)
  * [![Build Status](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost_graph.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_qmake_gcc_cpp14_boost_graph) Add `Boost.Graph`: [travis_qmake_gcc_cpp14_boost_graph](https://www.github.com/richelbilderbeek/travis_qmake_gcc_cpp14_boost_graph)
